@@ -18,7 +18,7 @@ Before you begin, ensure you have the following installed:
    Clone the MyList repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kaushikreddy1209/MyList/tree/main
    cd MyList
 
 2. **Install Dependencies**
@@ -27,5 +27,30 @@ Install npm or yarn dependencies:
 
 ```bash
 npm install
-# or
-yarn install
+```
+
+## Required Packages
+
+### Main Dependencies
+
+#### React Native
+
+React Native is a JavaScript framework for building mobile apps.
+
+# Install React Native CLI globally (if not already installed)
+```bash
+npm install -g react-native-cli
+```
+# Install all the dependencies required for the application to run
+
+```bash
+npm install @react-navigation/native @react-navigation/stack @react-native-async-storage/async-storage react-native-gesture-handler react-native-reanimated
+```
+### Instructions:
+
+- Replace `npm install` with `yarn add` if you prefer using yarn for package management.
+- Ensure to run these commands in your project's root directory.
+- These instructions cover the installation of essential dependencies required for most React Native applications, providing a solid foundation for navigation, data persistence, gestures, and animations.
+
+
+
