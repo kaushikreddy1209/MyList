@@ -52,5 +52,42 @@ npm install @react-navigation/native @react-navigation/stack @react-native-async
 - Ensure to run these commands in your project's root directory.
 - These instructions cover the installation of essential dependencies required for most React Native applications, providing a solid foundation for navigation, data persistence, gestures, and animations.
 
+### Set Up Native Dependencies
+
+#### For iOS
+
+If you are targeting iOS, ensure you have CocoaPods installed:
+
+```bash
+sudo gem install cocoapods
+```
+#### Navigate to the ios directory of your project and install pod dependencies
+
+```bash
+cd ios
+pod install
+```
+#### For Android no additional setup is required beyond installing the dependencies listed earlier.
+
+### Start the Metro Builder and follow the build instructions to run the application
+
+```bash
+npx react-native start
+```
+
+### Troubleshooting
+#### Metro Bundler Issues
+#### If you encounter issues with the Metro Bundler, try resetting the cache:
+
+```bash
+npx react-native start --reset-cache
+```
+
+#### To fix further issues run the following command
+
+```bash
+npx run react-native doctor
+```
+
 
 
